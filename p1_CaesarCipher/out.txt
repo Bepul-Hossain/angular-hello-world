@@ -1,2 +1,0 @@
-Encrypted : Khoor Zruog
-Decrypted : Hello World
