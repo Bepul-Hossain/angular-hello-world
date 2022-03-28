@@ -1,6 +1,19 @@
-this is app.components.html page {{title}}
+<!-- this is app.components.html page {{title}}
 
 <br/>
 <button routerLink="">Home</button>
 <button routerLink="about">About</button>
-<router-outlet></router-outlet>
+<router-outlet></router-outlet> -->
+
+<mat-toolbar>
+  <button
+    mat-icon-button
+    class="example-icon"
+    aria-label="Example icon-button with menu icon"
+  >
+  <mat-icon>supervised_user_circle</mat-icon>
+  </button>
+  <span>Angular CRUD App</span>
+  <span class="example-spacer"></span>
+  <button mat-raised-button color="warn" (click)="openDialog()">Add product</button>
+</mat-toolbar>
